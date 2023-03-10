@@ -1,4 +1,4 @@
-# _Eau Claire Salon_
+# _Eau Claire's Salon_
 
 #### By Molly Donegan
 

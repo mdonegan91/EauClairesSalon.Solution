@@ -45,6 +45,10 @@
 * _In the command line, run the command ``dotnet run`` to compile and execute the application._
 * _Optionally, you can run ``dotnet build`` to compile this app without running it._
 
+## Database Relationship Visualization
+
+![](database_relationship.png)
+
 ## Known Bugs
 
 * _NA_

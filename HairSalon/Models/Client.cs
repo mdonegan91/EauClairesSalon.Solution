@@ -1,4 +1,4 @@
-namespace EauClaireSalon.Models
+namespace HairSalon.Models
 {
   public class Client
   {

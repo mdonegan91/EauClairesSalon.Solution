@@ -53,10 +53,10 @@
 
 * _NA_
 
-* _Please reach out with any questions or concerns to [mollyrdonegan@gmail.com](mollyrdonegan@gmail.com)_
+* _Please reach out with any questions or concerns [mollyrdonegan@gmail.com](mollyrdonegan@gmail.com)_
 
 ## License
 
-_[MIT](https://github.com/mdonegan91/BestRestaurants.Solution/blob/main/LICENSE)_
+_[MIT](https://github.com/mdonegan91/EauClaireSalon.Solution/blob/main/LICENSE)_
 
 Copyright (c) _2023_ _Molly Donegan_

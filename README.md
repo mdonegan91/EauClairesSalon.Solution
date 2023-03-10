@@ -57,6 +57,6 @@
 
 ## License
 
-_[MIT](https://github.com/mdonegan91/EauClaireSalon.Solution/blob/main/LICENSE)_
+_[MIT](https://github.com/mdonegan91/EauClairesSalon.Solution/blob/main/LICENSE)_
 
 Copyright (c) _2023_ _Molly Donegan_

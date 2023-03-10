@@ -70,21 +70,5 @@ namespace HairSalon.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
-
-    [HttpGet("/stylists/search")]
-    public ActionResult Search(string employee)
-    {
-      List<Stylist> allStylists = Stylist.GetAll();
-      List<Stylist> artistSearch = new List<Stylist>();
-      foreach(Stylist element in allStylists)
-      {
-        string stylistInstance = element.Name.ToLower();
-        if (stylistInstance.Contains(employee.ToLower()))
-        {
-          stylistSearch.Add(element);
-        }
-      }
-      return View(stylistSearch);
-    }
   }
 }

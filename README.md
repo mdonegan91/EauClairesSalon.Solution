@@ -25,7 +25,7 @@
 ```json
 {
     "ConnectionStrings": {
-        "DefaultConnection": "Server=localhost;Port=3306;database=eau_claire_salon;uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];"
+        "DefaultConnection": "Server=localhost;Port=3306;database=hair_salon;uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];"
     }
 }
 ```
@@ -40,7 +40,7 @@
 * _Click ``"Data Import/Restore"``_
 * _Select the radio button "Import from Self-Contained File" and include file path to the sql file of this project that has been cloned to your machine._
 * _In "Default Schema to be Imported to" click "New"._
-* _Name the schema ``"eau_claire_salon"`` then click "OK"._
+* _Name the schema ``"hair_salon"`` then click "OK"._
 * _Once named, switch to ``"Import Progress"`` tab and click ``"Start Import"``._
 * _In the command line, run the command ``dotnet run`` to compile and execute the application._
 * _Optionally, you can run ``dotnet build`` to compile this app without running it._

@@ -70,5 +70,21 @@ namespace HairSalon.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+
+    [HttpGet("/artists/search")]
+    public ActionResult Search(string person)
+    {
+      List<Artist> allArtists = Artist.GetAll();
+      List<Artist> artistSearch = new List<Artist>();
+      foreach(Artist element in allArtists)
+      {
+        string artistInstance = element.Name.ToLower();
+        if (artistInstance.Contains(person.ToLower()))
+        {
+          artistSearch.Add(element);
+        }
+      }
+      return View(artistSearch);
+    }
   }
 }

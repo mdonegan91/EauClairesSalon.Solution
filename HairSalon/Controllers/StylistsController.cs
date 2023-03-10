@@ -71,20 +71,20 @@ namespace HairSalon.Controllers
       return RedirectToAction("Index");
     }
 
-    [HttpGet("/artists/search")]
-    public ActionResult Search(string person)
+    [HttpGet("/stylists/search")]
+    public ActionResult Search(string employee)
     {
-      List<Artist> allArtists = Artist.GetAll();
-      List<Artist> artistSearch = new List<Artist>();
-      foreach(Artist element in allArtists)
+      List<Stylist> allStylists = Stylist.GetAll();
+      List<Stylist> artistSearch = new List<Stylist>();
+      foreach(Stylist element in allStylists)
       {
-        string artistInstance = element.Name.ToLower();
-        if (artistInstance.Contains(person.ToLower()))
+        string stylistInstance = element.Name.ToLower();
+        if (stylistInstance.Contains(employee.ToLower()))
         {
-          artistSearch.Add(element);
+          stylistSearch.Add(element);
         }
       }
-      return View(artistSearch);
+      return View(stylistSearch);
     }
   }
 }

@@ -1,0 +1,11 @@
+using System.Collections.Generic;
+
+namespace EauClaireSalon.Models
+{
+  public class Stylist
+  {
+    public int StylistId { get; set; }
+    public string Description { get; set; }
+    public List<Client> Clients { get; set; }
+  }
+}

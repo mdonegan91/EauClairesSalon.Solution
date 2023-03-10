@@ -15,12 +15,12 @@
 ## Setup/Installation Requirements
 
 * _Clone this repository._
-* _Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "BestRestaurants"._
+* _Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "HairSalon"._
 * _This program was built using `Microsoft .NET SDK 6.0`, and may not be compatible with other versions._
 *  _Open the browser to [https://localhost:5001]. If you cannot access localhost:5001 it is likely because you have not configured a .NET developer security certificate for HTTPS. To learn about this, visit: [Redirecting to HTTPS and Issuing a Security Certificate.](https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/redirecting-to-https-and-issuing-a-security-certificate)_
 
 ## SQL Workbench Configuration
-* _Create an `appsetting.json` file in the "BestRestaurants" directory of the project._
+* _Create an `appsetting.json` file in the "HairSalon" directory of the project._
 * _Within `appsettings.json`, put in the following code, replacing the `uid` and `pwd` values with your own username and password for MySQL._ 
 ```json
 {

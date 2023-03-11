@@ -1,10 +1,10 @@
-# _Eau Claire's Salon_
+# _🎀 Eau Claire's Salon 🎀_
 
 #### By Molly Donegan
 
-#### _An MVC web application to help Claire manage her employees and their clients. Claire is able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist._
+#### _An MVC web application built to help Claire manage her employees and their clients. Claire is able to add a list of stylists working at the salon, and for each stylist, add clients who see that stylist._
 
-## Technologies Used
+## 💈 Technologies Used 💈
 
 * _C#_
 * _.NET_
@@ -12,14 +12,14 @@
 * _SQL Workbench_
 * _Entity Framework_
 
-## Setup/Installation Requirements
+## 💈 Setup/Installation Requirements 💈
 
 * _Clone this repository._
 * _Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "HairSalon"._
 * _This program was built using `Microsoft .NET SDK 6.0`, and may not be compatible with other versions._
 *  _Open the browser to [https://localhost:5001]. If you cannot access localhost:5001 it is likely because you have not configured a .NET developer security certificate for HTTPS. To learn about this, visit: [Redirecting to HTTPS and Issuing a Security Certificate.](https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/redirecting-to-https-and-issuing-a-security-certificate)_
 
-## SQL Workbench Configuration
+## 💈 SQL Workbench Configuration 💈
 * _Create an `appsetting.json` file in the "HairSalon" directory of the project._
 * _Within `appsettings.json`, put in the following code, replacing the `uid` and `pwd` values with your own username and password for MySQL._ 
 ```json
@@ -33,7 +33,7 @@
 * _Once "appsettings.json" file has been created, navigate back to SQL Workbench._ 
 * _Import the database named ``"molly_rose_donegan.sql"`` from the root directory of the project._ 
 
-## Database Import Instructions
+## 💈 Database Import Instructions 💈
 
 * _Open SQL workbench._
 * _Navigate to the "Administration" tab in SQL Workbench._
@@ -45,17 +45,17 @@
 * _In the command line, run the command ``dotnet run`` to compile and execute the application._
 * _Optionally, you can run ``dotnet build`` to compile this app without running it._
 
-## Database Relationship Visualization
+## 💈 Database Relationship Visualization 💈
 
 ![](database_relationship.png)
 
-## Known Bugs
+## 💅 Known Bugs 💅
 
 * _NA_
 
 * _Please reach out with any questions or concerns [mollyrdonegan@gmail.com](mollyrdonegan@gmail.com)_
 
-## License
+## 💅 License 💅
 
 _[MIT](https://github.com/mdonegan91/EauClairesSalon.Solution/blob/main/LICENSE)_
 
